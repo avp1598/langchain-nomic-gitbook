@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pdf-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Aditya Veer Parmar <nakulparmar15@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pdf_streamlit"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+langchain = "^0.0.183"
+pypdf2 = "^3.0.1"
+python-dotenv = "^1.0.0"
+streamlit = "^1.22.0"
+streamlit-extras = "^0.2.7"
+nomic = "^1.1.6"
+openai = "^0.27.7"
+tiktoken = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
